@@ -24,20 +24,17 @@ In the considered task, the drone is controlled to maintain its position at (0,0
 
 
 # Installation and Requirements
+
+This code was tested using:
+
+* Ubuntu 18.04 LTS
+* Python 3.7
+
 To clone and install the repository, run the following three lines:
 ```
 $ git clone https://github.com/Malekba98/Deep_Reinforcement_Learning_Bachelor_thesis.git
 $ cd Deep_Reinforcement_Learning_Bachelor_thesis/
 $ pip install -e .
 ```
-
-> Note: if your default `python` is 2.7, in the following, replace `pip` with `pip3` and `python` with `python3`
-
-
-## Supported Systems
-This code was tested using:
-
-* Ubuntu 18.04 LTS
-* Python 3.7
 
 ## Getting Started
