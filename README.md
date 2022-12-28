@@ -9,7 +9,7 @@ This repository contains implementations of the differential equations-based and
 
 Hovering Task 
 --- 
-In the considered task, the drone is controlled to maintain its position at (0,0,1).
+In the considered task, the aim is to control the drone to maintain its position at (0,0,1).
 
 ![Hover](./docs_readme/hover.png)
 
