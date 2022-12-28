@@ -5,6 +5,8 @@ In context of this Bachelor's thesis, I implement different deep Reinforcement L
 
 For a more detailed discussion please refer to [my thesis](https://github.com/Malekba98/Deep_Reinforcement_Learning_Bachelor_thesis/blob/main/report_and_presentation/report.pdf) and [final presentation](https://github.com/Malekba98/Deep_Reinforcement_Learning_Bachelor_thesis/blob/main/report_and_presentation/presentation.pdf).
 
+This repository contains implementations of the differential equations-based and the [PyBullet](https://github.com/bulletphysics/bullet3)-based 3D simulation environment.
+
 An OpenAI [Gym environment](https://gym.openai.com/envs/#classic_control) based on [PyBullet](https://github.com/bulletphysics/bullet3) for reinforcement learning with quadcopters. 
 
 - The default dynamics are based on [Bitcraze's Crazyflie 2.x nano-quadrotor](https://www.bitcraze.io/documentation/hardware/crazyflie_2_1/crazyflie_2_1-datasheet.pdf)
