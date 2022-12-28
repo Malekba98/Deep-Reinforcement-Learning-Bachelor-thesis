@@ -15,10 +15,10 @@ In the considered task, the drone is controlled to maintain its position at (0,0
 
 ## Overview of Simulation Environments
 
-|                                       | Task         | Controller    | Physics            | Observation Frequency | Domain Randomization |  *Aerodynamic effects*  |
-|-------------------------------------: | :----------: | :-----------: | :----------------: | :-------------------: | :------------------: | :-------------------------: |
-| `DroneHoverPIDSystemEqEnv-v0`         | Hover        | Attitude Rate PID controller (500Hz)   | Differential Equations |  100 Hz |  10%        |   None |                 
-| `DroneHoverPIDBulletEnv-v0`           | Hover        | Attitude Rate PID controller (500Hz)   | PyBullet     |  100 Hz |        10%     |             Drag |                 
+|                                       | Task           | Physics            | Observation Frequency | Domain Randomization |  *Aerodynamic effects*  |
+|-------------------------------------: | :----------:   | :----------------: | :-------------------: | :------------------: | :-------------------------: |
+| `DroneHoverPIDSystemEqEnv-v0`         | Hover          | Differential Equations |  100 Hz |  10%        |   None |                 
+| `DroneHoverPIDBulletEnv-v0`           | Hover          | PyBullet     |  100 Hz |        10%     |             Drag |                 
 
 
 
