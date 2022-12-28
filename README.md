@@ -27,8 +27,8 @@ three lines:
 The repo is structured as a [Gym Environment](https://github.com/openai/gym/blob/master/docs/creating-environments.md)
 and can be installed with `pip install --editable`
 ```
-$ git clone https://gitlab.lrz.de/projectphoenix/phoenix-simulation.git
-$ cd phoenix-simulation/
+$ git clone https://github.com/Malekba98/Deep_Reinforcement_Learning_Bachelor_thesis.git
+$ cd Deep_Reinforcement_Learning_Bachelor_thesis/
 $ pip install -e .
 ```
 
