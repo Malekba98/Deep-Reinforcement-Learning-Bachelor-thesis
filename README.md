@@ -15,18 +15,10 @@ An OpenAI [Gym environment](https://gym.openai.com/envs/#classic_control) based 
 
 
 
-At the moment, there is one task available to fly the drone:
-
-- Hover
-
-
-
 ## Overview of Environments
 
 |                                       | Task         | Controller    | Physics            | Observation Frequency | Domain Randomization |  *Aerodynamic effects*  |
 |-------------------------------------: | :----------: | :-----------: | :----------------: | :-------------------: | :------------------: | :-------------------------: |
-| `DroneHoverPWMSystemEqEnv-v0`         | Hover        | PWM (100Hz)   | System Equations   | 100 Hz                | 10%                  | None |
-| `DroneHoverPWMBulletEnv-v0`           | Hover        | PWM (500Hz)   | PyBullet           | 100 Hz                | 10%                  | Drag |
 | `DroneHoverPIDSystemEqEnv-v0`         | Hover        | Attitude Rate PID controller (500Hz)   | System Equations |  100 Hz |  10%        |   None |                 
 | `DroneHoverPIDBulletEnv-v0`           | Hover        | Attitude Rate PID controller (500Hz)   | PyBullet     |  100 Hz |        10%     |             Drag |                 
 
