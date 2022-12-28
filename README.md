@@ -35,22 +35,9 @@ $ pip install -e .
 
 
 ## Supported Systems
+This code was tested using:
 
-We tested the repository under *Ubuntu 20.04* and *Mac OS X 11.2* running Python 3.7
-and 3.8. Other system might work as well but have not been tested yet.
-Note that PyBullet supports Windows as platform only experimentally!. 
-
-Note: This package has been tested on Mac OS 11 and Ubuntu (18.04 LTS, 
-20.04 LTS), and is probably fine for most recent Mac and Linux operating 
-systems. 
-
-
-## Dependencies 
-
-Bullet-Safety-Gym heavily depends on two packages:
-
-+ [Gym](https://github.com/openai/gym)
-+ [PyBullet](https://github.com/bulletphysics/bullet3)
-
+* Ubuntu 18.04 LTS
+* Python 3.7
 
 ## Getting Started
