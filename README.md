@@ -3,7 +3,7 @@ Welcome to the repository of my Bachelor's thesis at the Department of Electrica
 
 In context of this Bachelor's thesis, I implement different deep Reinforcement Learning models on a drone to perform a hovering task in a Transfer Learning setting; first I pre-train the Reinforcement Learning models on the differential equations of the drone where an amount of knowledge is acquired, then I transfer this knowledge by post-training the models on a 3D simulation environment. By means of commonly used metrics, I evaluate the benefits of Transfer Learning to the learning process of the desired task compared to the case where no knowledge is transferred. Furthermore and most importantly, I analyze the sample complexity of the post-training of the implemented deep Reinforcement Learning algorithms. This allows me to draw conclusions about which models deliver the overall best performance and are most appropriate for the combination of deep Reinforcement Learning with Transfer Learning in this specific use case.
 
-To read a more detailed discussion see my thesis and final presentation.
+For a more detailed discussion please refer to my thesis and final presentation.
 
 An OpenAI [Gym environment](https://gym.openai.com/envs/#classic_control) based on [PyBullet](https://github.com/bulletphysics/bullet3) for reinforcement learning with quadcopters. 
 
