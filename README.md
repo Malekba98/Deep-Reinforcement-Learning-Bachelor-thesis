@@ -7,15 +7,8 @@ For a more detailed discussion please refer to [my thesis](https://github.com/Ma
 
 This repository contains implementations of the differential equations-based and the [PyBullet](https://github.com/bulletphysics/bullet3)-based 3D simulation environments used in this thesis, which were forked from a previous version of this [repository](https://github.com/SvenGronauer/phoenix-drone-simulation).
 
-An OpenAI [Gym environment](https://gym.openai.com/envs/#classic_control) based on [PyBullet](https://github.com/bulletphysics/bullet3) for reinforcement learning with quadcopters. 
 
-- The default dynamics are based on [Bitcraze's Crazyflie 2.x nano-quadrotor](https://www.bitcraze.io/documentation/hardware/crazyflie_2_1/crazyflie_2_1-datasheet.pdf)
-
-- Everything after a `$` is entered on a terminal, everything after `>>>` is passed to a Python interpreter
-
-
-
-## Overview of Environments
+## Overview of Simulation Environments
 
 |                                       | Task         | Controller    | Physics            | Observation Frequency | Domain Randomization |  *Aerodynamic effects*  |
 |-------------------------------------: | :----------: | :-----------: | :----------------: | :-------------------: | :------------------: | :-------------------------: |
