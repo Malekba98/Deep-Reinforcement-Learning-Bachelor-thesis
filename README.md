@@ -7,6 +7,9 @@ For a more detailed discussion please refer to [my thesis](https://github.com/Ma
 
 This repository contains implementations of the differential equations-based and the [PyBullet](https://github.com/bulletphysics/bullet3)-based 3D simulation environments used in this thesis, which were forked from a previous version of this [repository](https://github.com/SvenGronauer/phoenix-drone-simulation).
 
+Hover Task 
+--- 
+![Hover](./docs_readme/hover.png)
 
 ## Overview of Simulation Environments
 
