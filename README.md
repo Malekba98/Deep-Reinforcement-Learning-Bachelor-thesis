@@ -22,13 +22,7 @@ Hover Task
 
 
 # Installation and Requirements
-
-Here are the (few) steps to follow to get our repository ready to run. Clone the
-repository and install the phoenix-simulation package via pip. Use the following
-three lines:
-
-The repo is structured as a [Gym Environment](https://github.com/openai/gym/blob/master/docs/creating-environments.md)
-and can be installed with `pip install --editable`
+To clone and install the repository, run the following three lines:
 ```
 $ git clone https://github.com/Malekba98/Deep_Reinforcement_Learning_Bachelor_thesis.git
 $ cd Deep_Reinforcement_Learning_Bachelor_thesis/
