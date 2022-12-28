@@ -1,4 +1,4 @@
-# Phoenix-Simulation 
+# Deep Reinforcement Learning Models for a Hovering Task
 Welcome to the repository of my Bachelor's thesis at the Department of Electrical and Computer Engineering at TUM. The topic of this thesis is "Sample Complexity Analysis of Transfer Learning for Deep Reinforcement Learning Models".
 
 In context of this Bachelor's thesis, I implement different deep Reinforcement Learning models on a drone to perform a hovering task in a Transfer Learning setting; first I pre-train the Reinforcement Learning models on the differential equations of the drone where an amount of knowledge is acquired, then I transfer this knowledge by post-training the models on a 3D simulation environment. By means of commonly used metrics, I evaluate the benefits of Transfer Learning to the learning process of the desired task compared to the case where no knowledge is transferred. Furthermore and most importantly, I analyze the sample complexity of the post-training of the implemented deep Reinforcement Learning algorithms. This allows me to draw conclusions about which models deliver the overall best performance and are most appropriate for the combination of deep Reinforcement Learning with Transfer Learning in this specific use case.
@@ -16,9 +16,7 @@ An OpenAI [Gym environment](https://gym.openai.com/envs/#classic_control) based 
 At the moment, there is one task available to fly the drone:
 
 - Hover
-- ~~Take-off~~ (not yet implemented)
-- ~~Circle~~ (not yet implemented)
-- ~~Reach~~ (not yet implemented)
+
 
 
 ## Overview of Environments
