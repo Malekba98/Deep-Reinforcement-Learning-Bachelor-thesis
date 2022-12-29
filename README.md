@@ -39,6 +39,6 @@ $ pip install -e .
 
 ## Repository Structure
 This repository is structured as follows:
-* The directory `notebooks` contains Jupyter notebooks that illustrate the different pre-training, post-training and evaluation procedures implemented in this work.
+* The directory `notebooks` contains Jupyter notebooks that illustrate the different pre-training, post-training and evaluation procedures for the different deep RL methods implemented in this work.
 
 * The directories `phoenix-simulation`, `tests`,`data` and `tools` make up the simulation environments used in this work and are implemented as OpenAI [Gym environments](https://github.com/openai/gym).
