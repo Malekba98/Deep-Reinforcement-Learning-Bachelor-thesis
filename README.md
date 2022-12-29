@@ -41,4 +41,4 @@ $ pip install -e .
 This repository is structured as follows:
 * The directory `notebooks` contains Jupyter notebooks that illustrate the different pre-training, post-training and evaluation procedures implemented in this work.
 
-* The directories `phoenix-simulation`, `tests`,`data` and `tools` make up the simulation environments used in this work and are implemented as OpenAI [Gym environments](https://gym.openai.com/envs/#classic_control).
+* The directories `phoenix-simulation`, `tests`,`data` and `tools` make up the simulation environments used in this work and are implemented as OpenAI [Gym environments](https://github.com/openai/gym).
