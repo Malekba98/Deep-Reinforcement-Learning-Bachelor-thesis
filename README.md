@@ -42,3 +42,9 @@ This repository is structured as follows:
 * The directory `notebooks` contains Jupyter notebooks that illustrate the different pre-training, post-training and evaluation procedures for the different deep RL methods implemented in this work.
 
 * The directories `phoenix-simulation`, `tests`,`data` and `tools` make up the simulation environments used in this work and are implemented as OpenAI [Gym environments](https://github.com/openai/gym).
+
+## Acknowledgements
+The simulation environments used in this work are taken from a previous version of this [repository](https://github.com/SvenGronauer/phoenix-drone-simulation)
+
+
+
