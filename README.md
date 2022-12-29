@@ -37,4 +37,8 @@ $ cd Deep_Reinforcement_Learning_Bachelor_thesis/
 $ pip install -e .
 ```
 
-## Getting Started
+## Repository Structure
+This repository is structured as follows:
+* The directory `notebooks` contains Jupyter notebooks that illustrate the different pre-training, post-training and evaluation procedures implemented in this work.
+
+* The other directories `phoenix-simulation`, `tests`,`data` and `tools` make up the simulation environments used in this work and are implemented as OpenAI [Gym environments](https://gym.openai.com/envs/#classic_control).
